@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: white;
+}
+
+/* Title */
+.title {
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.subtitle {
+    color: #bbb;
+}
+
+/* Game Screen */
+#game-screen {
+    width: 80%;
+    height: 250px;
+    margin: 30px auto;
+    border: 3px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Real World */
+.real-world {
+    background-color: #eaeaea;
+    color: black;
+}
+
+/* Upside Down */
+.upside-down {
+    background-color: #3b0000;
+    color: #ff4d4d;
+}
+
+/* Button */
+button {
+    padding: 12px 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Hint */
+.hint {
+    margin-top: 20px;
+    font-style: italic;
+    color: #aaa;
+}
